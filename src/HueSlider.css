@@ -1,0 +1,34 @@
+.hue-slider-wrapper {
+  position: relative;
+  height: 16px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.hue-slider {
+  background: linear-gradient(
+    to right,
+    rgb(255, 0, 0) 0%,
+    rgb(255, 255, 0) 17%,
+    rgb(0, 255, 0) 33%,
+    rgb(0, 255, 255) 50%,
+    rgb(0, 0, 255) 67%,
+    rgb(255, 0, 255) 83%,
+    rgb(255, 0, 0) 100%
+  );
+  padding: 0 2px;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-radius: 100px;
+}
+
+.hue-slider-knob {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  transform: translate(-14px, -7px);
+  background-color: rgb(248, 248, 248);
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.37);
+  cursor: pointer;
+}
