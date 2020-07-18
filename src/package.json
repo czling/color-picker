@@ -7,7 +7,7 @@
   "dependencies": {
     "hsluv": "0.0.3",
     "human-color": "2.1.0",
-    "lodash": "4.17.15",
+    "lodash": "4.17.19",
     "react": "16.12.0",
     "react-dom": "16.12.0"
   }
